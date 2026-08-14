@@ -1,6 +1,6 @@
 <?php
 
-$receiving_email_address = 'anandrathoreindi@gmail.com';
+$receiving_email_address = 'jayasreekirthipati04@gmail.com';
 
 // Path to PHP Email Form library
 $php_email_form = '../assets/vendor/php-email-form/php-email-form.php';
