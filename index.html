@@ -60,6 +60,7 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#news"><i class="bi bi-newspaper navicon"></i> News</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#publication"><i class="bi bi-journal-text navicon"></i> Publications</a></li>
         <li><a href="#webservers"><i class="bi bi-globe2 navicon"></i> Webservers</a></li>
@@ -178,7 +179,23 @@
 
     </section><!-- /About Section -->
 
+    <!-- News Section -->
+    <section id="news" class="news section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>News</h2>
+        <p>Recent updates, publications, and announcements.</p>
+      </div><!-- End Section Title -->
 
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <ul class="news-list" style="list-style: none; padding: 0;">
+          <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+            <strong style="color: #2ecc71; min-width: 120px; display: inline-block;">Sep 2026</strong> 
+            We have successfully deployed the <strong>StackHPpred</strong> webserver for identifying peptide hormones using multi-view feature representations! 
+          </li>
+        </ul>
+      </div>
+    </section><!-- /News Section -->
 
     <!-- Skills Section -->
     <section id="skills" class="skills section light-background">
@@ -186,9 +203,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Technical Expertise</h2>
-        <p>A curated showcase of my core competencies in computational biology, bioinformatics,
-          and artificial intelligence.
-        </p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -205,10 +219,11 @@
               </div>
               <div class="skill-tags">
                 <span class="skill-tag expert">Python</span>
-                <span class="skill-tag expert">ML/DL</span>
+                <span class="skill-tag expert">Django</span>
                 <span class="skill-tag intermediate">R</span>
                 <span class="skill-tag expert">HTML/CSS</span>
-                <span class="skill-tag advanced">Databases</span>
+                <span class="skill-tag advanced">PostgreSQL</span>
+                <span class="skill-tag advanced">Docker</span>
               </div>
             </div>
           </div>
@@ -441,10 +456,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
-        <p>Software Engineer with a strong academic background and extensive experience in
-          building scalable systems, currently transitioning into interdisciplinary research in Artificial Intelligence
-          and Computational Biology.
-        </p>
       </div><!-- End Section Title -->
 
 
@@ -492,6 +503,8 @@
                     bioinformatics.</li>
                   <li>Learning to apply deep learning frameworks and transformer architectures to challenges in
                     molecular biology and biomedical data.</li>
+                  <li><strong>StackHPpred Framework:</strong> Developed a stacking-based ensemble learning model for identifying peptide hormones using multi-view feature representations (CTDD, KSCTriad, and PTAB).</li>
+                  <li><strong>Web Server Deployment:</strong> Built and deployed the StackHPpred web server using Django, PostgreSQL, and Docker, enabling researchers to run sequence-based screening effectively.</li>
                 </ul>
               </div>
             </div><!-- End Research Experience Section -->
@@ -643,8 +656,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Publications</h2>
-        <p>Peer-reviewed research articles, preprints, and scientific contributions showcasing
-          our work in computational biology and bioinformatics.</p>
+        <p>Peer-reviewed articles, preprints, and other contributions.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -967,9 +979,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Webservers</h2>
-        <p>This section showcases a collection of scalable web applications and computational tools designed to
-          accelerate research in computational biology and bioinformatics. These upcoming platforms will host advanced
-          predictive models and curated databases tailored for biomedical applications.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -1006,8 +1015,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Research Areas</h2>
-        <p>I focus on integrating artificial intelligence with computational biology and bioinformatics to develop
-          innovative solutions for complex biomedical and healthcare challenges.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -1018,8 +1025,7 @@
             <div class="icon flex-shrink-0"><i class="bi bi-cpu"></i></div>
             <div>
               <h4 class="title">Machine Learning in Bioinformatics</h4>
-              <p class="description">Applying advanced deep learning and transformer architectures to analyze complex
-                molecular data and improve biomedical predictions.</p>
+              <p class="description">Deep learning approaches for prediction and analysis of biological data.</p>
             </div>
           </div>
 
@@ -1027,17 +1033,15 @@
             <div class="icon flex-shrink-0"><i class="bi bi-diagram-3"></i></div>
             <div>
               <h4 class="title">Peptide Therapeutics</h4>
-              <p class="description">Utilizing computational approaches to discover and evaluate the druggability of
-                novel peptide-based treatments.</p>
+              <p class="description">Computational screening of peptides for therapeutic potential and safety.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="icon flex-shrink-0"><i class="bi bi-code-slash"></i></div>
             <div>
-              <h4 class="title">Web Server and Tool Development</h4>
-              <p class="description">Building robust backend services and accessible web platforms to deploy
-                computational models for the broader scientific community.</p>
+              <h4 class="title">Web Servers & Tool Development</h4>
+              <p class="description">Backend services and platforms that make research models usable by others.</p>
             </div>
           </div>
 
